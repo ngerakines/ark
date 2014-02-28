@@ -14,7 +14,7 @@ describe_recipe 'ark::test' do
   end
 
   if RUBY_PLATFORM =~ /freebsd/
-    it 'installs the gnu tar package on freebsc' do
+    it 'installs the gnu tar package on freebsd' do
       package('gtar').must_be_installed
     end
   end
